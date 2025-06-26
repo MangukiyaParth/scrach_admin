@@ -1,0 +1,56 @@
+[17-Nov-2024 07:28:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/sqjtpofk/reward.techappinnovation.c in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[17-Nov-2024 07:28:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/sqjtpofk/reward.techappinnovation.c in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[17-Nov-2024 07:28:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/sqjtpofk/reward.techappinnovation.c in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[17-Nov-2024 07:28:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/sqjtpofk/reward.techappinnovation.c in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[17-Nov-2024 07:28:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/sqjtpofk/reward.techappinnovation.c in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[17-Nov-2024 07:28:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/sqjtpofk/reward.techappinnovation.c in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[17-Nov-2024 07:29:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/sqjtpofk/reward.techappinnovation.c in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
+[17-Nov-2024 07:29:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Component\VarDumper\Dumper\json_encode() in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php:157
+Stack trace:
+#0 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(950): Symfony\Component\VarDumper\Dumper\HtmlDumper->getDumpHeader()
+#1 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(580): Symfony\Component\VarDumper\Dumper\HtmlDumper->dumpLine(0, true)
+#2 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/CliDumper.php(268): Symfony\Component\VarDumper\Dumper\CliDumper->endValue(Object(Symfony\Component\VarDumper\Cloner\Cursor))
+#3 /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php(799): Symfony\Component\VarDumper\Dumper\CliDumper->dumpString(Object(Symfony\Component\VarDumper\Cloner\Cursor), 'Use of undefine...', false, 0)
+#4 /home/sqjtpofk/reward.techappinnovation.c in /home/sqjtpofk/reward.techappinnovation.com/vendor/symfony/var-dumper/Dumper/HtmlDumper.php on line 157
