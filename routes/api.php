@@ -19,6 +19,9 @@ Route::group(['middleware' => 'auth:sanctum'], function(){
    Route::post('datas', 'Api\Func@initCr');
    Route::post('update-profile-pass', 'Api\UserController@update_profile_pass');
    Route::post('update-profile', 'Api\UserController@update_profile');    
+   
+   Route::get('get-apps', 'Api\AppController@index');    
+   Route::post('add-result', 'Api\AppController@add_result');    
 });
         
 Route::get('abouts', 'Api\Func@abouts');
