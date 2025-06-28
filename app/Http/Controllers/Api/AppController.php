@@ -37,8 +37,8 @@ class AppController extends Controller
             $req=json_decode(base64_decode(base64_decode(request()->data)),true);
             
             $user = Users::find($userid);
-            $app_id = $req->app_id;
-            $coin = $req->coin;
+            $app_id = $request->app_id;
+            $coin = $request->coin;
             $total = $user->balance + $coin;
             $user->balance = $total;
             

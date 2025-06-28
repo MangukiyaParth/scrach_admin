@@ -21,6 +21,7 @@ Route::group(['middleware' => 'auth:sanctum'], function(){
    Route::post('update-profile', 'Api\UserController@update_profile');    
    
    Route::get('get-apps', 'Api\AppController@index');    
+   Route::get('fetch-balance', 'Api\UserController@fetch_balance');    
    Route::post('add-result', 'Api\AppController@add_result');    
 });
         

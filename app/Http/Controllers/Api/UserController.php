@@ -340,6 +340,21 @@ class UserController extends Controller
         }
     }
 
+    public function fetch_balance($req)
+    {
+        if(auth('sanctum')->check()) {
+            $id = auth()->user()->uid;
+            $data = Users::find($id);
+            if ($data) {
+                return response(['balance' => $data->balance, 'code' => 1]);
+            } else {
+                return $this->respError('Account Not Credted !');
+            }
+        }else{
+            return $this->respError($this->getResponseMsg('something_went_wrong'));
+        }
+    }
+
     public function reset(Request $request)
     {
         $appname = config('app.name');
