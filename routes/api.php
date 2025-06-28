@@ -16,14 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::group(['middleware' => 'auth:sanctum'], function(){
     //All secure URL's
     
-   Route::post('datas', 'Api\Func@initCr');
-   Route::post('update-profile-pass', 'Api\UserController@update_profile_pass');
-   Route::post('update-profile', 'Api\UserController@update_profile');    
-   
-   Route::get('get-apps', 'Api\AppController@index');    
-   Route::get('fetch-balance', 'Api\UserController@fetch_balance');    
-   Route::post('add-result', 'Api\AppController@add_result');    
 });
+Route::post('datas', 'Api\Func@initCr');
+Route::post('update-profile-pass', 'Api\UserController@update_profile_pass');
+Route::post('update-profile', 'Api\UserController@update_profile');    
+
+Route::get('get-apps', 'Api\AppController@index');    
+Route::get('fetch-balance', 'Api\UserController@fetch_balance');    
+Route::post('add-result', 'Api\AppController@add_result');    
         
 Route::get('abouts', 'Api\Func@abouts');
 Route::get('config', 'Api\Func@config');
